@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 #main {
@@ -12,8 +13,8 @@
     width:90%;
     border: solid red;
     display: flex;
+    align-content: center;
     justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
