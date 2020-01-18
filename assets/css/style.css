@@ -1,40 +1,50 @@
-#background {
-    height: 950px;
-    width: 100%;
-    border: solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-header {
-    align-content: center;
-    justify-content: center;
-    
-}
-
-#main {
-    height:90%;
-    width:90%;
-    border: solid red;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    opacity: 1;
-}
-
-.block {
-    display: block;
-    height: 80px;
-    width: 80px;
-    border: solid blue;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    opacity: 1;
+.jumbotron {
+    box-sizing: border-box;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .main-button-container {
+    margin-top: 175px;
+    max-width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .timer-p {
+    margin-top: 40px;
+  }
+  
+  .answer:hover {
+    background: pink;
+  }
+  
+  .answer {
+    padding-top: 7px;
+    height: 45px;
+    color: black;
+    padding-left: 14px;
+    background-color: white;
+    border-radius: 4px;
+  }
+  
+  .img-wrong {
+    margin-top: 40px;
+  }
+  
+  .first-answer {
+    margin-top: 40px;
+  }
+  
+  .reset-button {
+    margin-top: 40px;
+  }
+  
+  .summary-correct {
+    margin-top: 40px;
+  }
+  
+  body {
+    background-color: #DD0506;
+    color: white;
   }
