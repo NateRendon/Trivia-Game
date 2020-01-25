@@ -2,11 +2,9 @@ const listOfQuestions = [
     {question: "Sega came out with a very iconic hedgehog that has become fairly renown. what is his name?", answer1: "Tails", answer2: "Sonic", answer3: "Knuckles", answer4: "Eggman", finalAttr: "answer2", finalText: "Sonic"},
     {question: "In Legend of Zelda, what is the name of the warrior who takes up the legendary Master Sword?", answer1: "Epona", answer2: "Link", answer3: "Tingle", answer4: "Zelda", finalAttr: "answer2", finalText: "Link"},
     {question: "In Nintendo's DK series. DK is the initials for the main character. What is his name?", answer1: "Donkey Kong", answer2: "Daddy Kong", answer3: "Diddy Kong", answer4: "Dankey Kong", finalAttr: "answer1", finalText: "Donkey Kong"},
-    {question: "?", answer1: "", answer2: "Shadow", answer3: "Tails", answer4: "Knuckles", finalAttr: "answer3", finalText: "Tails"},
-    {question: "?", answer1: "", answer2: "", answer3: "", answer4: "", finalAttr: "answer1", finalText: ""},
-    {question: "?", answer1: "", answer2: "", answer3: "", answer4: "", finalAttr: "answer4", finalText: ""},
+    {question: "Who is Mario's borther in the Super Mario Bro's Saga?", answer1: "Morten", answer2: "Toad", answer3: "Luigi", answer4: "Goomba", finalAttr: "answer3", finalText: "Luigi"},
     {question: "In Star Fox, our main hero goes by Fox, but what is his last name?", answer1: "Fur", answer2: "McCloud", answer3: "McDonald", answer4: "Archwing", finalAttr: "answer2", finalText: "McCloud"},
-    {question: "?", answer1: "", answer2: "", answer3: "", answer4: "", finalAttr: "answer1", finalText: ""},
+    {question: "In Sega's Sonic the Hedgehog, who is Sonics best friend?", answer1: "Tails", answer2: "Knuckles", answer3: "Shadow", answer4: "Silver", finalAttr: "answer1", finalText: "Tails"},
     {question: "What is the color of Link's main Tunic in Legend of Zelda?", answer1: "Red", answer2: "Green", answer3: "Blue", answer4: "Purple", finalAttr: "answer2", finalText: "Green"},
     {question: "Our beloved pink ball Kirby fought many bosses, who was normally the firs to fight kirby?", answer1: "Marx", answer2: "MetaKnight", answer3: "Whispy Woods", answer4: "King DeDeDe", finalAttr: "answer3", finalText: "Whispy Woods"},
 ]
