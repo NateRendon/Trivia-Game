@@ -1,31 +1,47 @@
 <!DOCTYPE html>
-  <html lang ="en">
-    <head>
+<html lang="en-us">
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
 
-        <meta charset="utf-8">
-        <title>Travel Trivia Quiz</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-        <script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
-    </head>
-    <body>
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
+    <!--Link to Bootstrap and CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+</html>
+
+<body background="assets/images/cardfight.jpeg">
+    <div class="container">
         <div class="row">
-          <h1 class="text-center">Travel Trivia Quiz</h1>
-          <div class="mainArea col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-          </div>
+            <div class="col-lg-12">
+                <div class="card">
+                    <h1 class="card-header text-center text-danger">Gaming Trivia!!!</h1>
+                </div>
+            </div>
         </div>
-      </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div id="startButton">
+                        <button id="start" type="button" class="btn btn-lg btn-danger">ENTER</button>
+                        </div>
+                        <h2 id="time-remaining" class="card-header text-center"></h2>
+                        <h3 id="question" class="card-header text-center"></h3>
+                        <h4 id="answer1" class="card-header text-center"></h4>
+                        <h4 id="answer2" class="card-header text-center"></h4>
+                        <h4 id="answer3" class="card-header text-center"></h4>
+                        <h4 id="answer4" class="card-header text-center"></h4>
+                        <button id="playAgain" type="button" class="btn btn-lg btn-danger invisible">PLAY AGAIN?</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="container">
-
-    </div> <!-- /container -->
-        <script src="js/main.js"></script>
-    </body>
-  </html>
+    <!-- Add link to the javascript -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    
+</body>

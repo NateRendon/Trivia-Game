@@ -10,9 +10,8 @@ $(document).ready(function() {
     
     //Create a function, generateHTML(), that is triggered by the start button, and generates the HTML seen on the project video...
     
-    $("body").on("click", ".start-button", function(event){
+    $("body").on( function(){
         event.preventDefault();  // added line to test issue on GitHub Viewer
-        clickSound.play();
         generateHTML();
     
         timerWrapper();
